@@ -4,11 +4,11 @@
 
 ### Prerequisites
 
--Web Browser
+- Web Browser
 
--Network Connection/Internet
+- Network Connection/Internet
 
--Google Maps API developer account (API Key)
+- Google Maps API developer account (API Key)
 
 ### Running the project
 
@@ -16,11 +16,11 @@
 
 ## APIs, Libraries & Frameworks Used:
 
--jQuery
--Knockout.js
--Google Maps Javascript API
--Wikipedia API
--Bootstrap
+- jQuery
+- Knockout.js
+- Google Maps Javascript API
+- Wikipedia API
+- Bootstrap
 
 ## Acknowledgments
 

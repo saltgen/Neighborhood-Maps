@@ -1,6 +1,6 @@
 # Project: Neighborhood Map
 
-This project has been created to showcase my front-end(javascript, Knockout.js, etc.) & API skills. This project loads a map using Google Maps that shows predifned locations, as markers. Each with a relevant Wikipedia article that shows up as a link to respective Wikipedia article, when the respective marker is clicked.
+This project has been created to showcase my front-end(javascript, Knockout.js, etc.) & API skills. This project loads a map using Google Maps that shows predifned locations, as markers. Each with a relevant Wikipedia article that shows up as a link to respective article, when the related marker is clicked.
 
 ### Prerequisites:
 

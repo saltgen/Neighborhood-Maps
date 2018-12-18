@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Neighborhood Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+    <div id="map"></div>
+    <div id="nav-side-menu">
+            <div>
+            	<h4 class="title" align="center">Travel Destinations: Coimbatore</h4>
+                <input id="input" placeholder="Search..." type="input" data-bind="textInput: searchTerm," autocomplete="on"></input>
+                <div>
+                    <ul class="list-group" data-bind="template: {name: 'location', foreach:locations}">
+                    </ul>
+                    <script type="text/html" id="location">
+                        <div data-bind="visible: visible">
+                            <a href="#" data-bind="attr: {id: id}">
+                            <li data-bind="value: title">
+                                    <strong data-bind="text: title"></strong>
+                                </li>
+                            </a>
+                        </div>
+                    </script>
+                </div>
+            </div>
+            <div class="reset">
+                <button type="button" class="btn btn-default" onclick="window.location.reload()">Reset Map</button>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPJUMj2mAxqPyNBQRLTQz_GDy-WEZbTM&v=3&callback=initMap"
+        onerror="mapsAPIError()">
+    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>

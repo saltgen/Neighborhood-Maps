@@ -1,0 +1,103 @@
+
+html,body {
+        font-family: Helvetica, sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+#map {
+	position: absolute;
+	top: 0;
+	left: 0;
+    bottom: 0;
+	width: 100%;
+}
+
+.title{
+    padding: 4%;
+}
+
+#nav-side-menu {
+  overflow: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 250;
+  background-color: #2e353d;
+  position: fixed;
+  top: 0px;
+  width: 20%;
+  height: 100%;
+  color: #e1ffff;
+}
+
+.reset{
+    margin-left: 29%;
+    margin-top: 10%;
+}
+
+.list-group {
+    max-height: 400px;
+    overflow: auto;
+    margin: 0 5px;
+    text-align: center;
+}
+
+#input {
+    margin: 15px 0 5px 20px;
+    width: 85%;
+    height: 30px;
+    color: grey;
+    border: none;
+    font-family: garamond, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 2px;
+	margin-bottom: 0;
+}
+li {
+    margin-left: -8%;
+	font-family: Helvetica,sans-serif;
+    color: white;
+	padding: 8px 0 15px 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+li:hover {
+	background-color: orange;
+	color: white;
+ }
+ a {
+    text-decoration: none !important;
+}
+
+@media screen and (max-device-width: 500px) {
+        #nav-side-menu, #nav-side-menu > ul, #nav-side-menu > ul > li {
+    		width: 42%;
+    	}
+        .reset{
+            margin-left: 23%;
+        }
+    }
+
+@media screen and (min-width: 500px) and (max-width: 771px) and (orientation:landscape) {
+	#nav-side-menu, #nav-side-menu > ul, #nav-side-menu > ul > li {
+		width: 30%;
+	}
+    .reset{
+        margin-left: 23%;
+    }
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 1080px) and (orientation:landscape) {
+	#nav-side-menu, #nav-side-menu > ul, #nav-side-menu > ul > li {
+		width: 20%;
+	}
+    .reset{
+        margin-left: 30%;
+    }
+}

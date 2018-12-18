@@ -2,7 +2,7 @@
 
 This project has been created to showcase my front-end(javascript, Knockout.js, etc.) & API skills. This project loads a map using Google Maps that shows predifned locations, as markers. Each with a relevant Wikipedia article that shows up as a link to Wikipedia, when the respective marker is clicked.
 
-### Prerequisites
+### Prerequisites:
 
 - Web Browser
 
@@ -10,7 +10,7 @@ This project has been created to showcase my front-end(javascript, Knockout.js, 
 
 - Google Maps API developer account (API Key)
 
-### Running the project
+### Running the project:
 
 -There is no need to install this project, after un-zipping this zip file, the index.html file needs to be opended with a browser.
 
@@ -22,7 +22,7 @@ This project has been created to showcase my front-end(javascript, Knockout.js, 
 - Wikipedia API
 - Bootstrap
 
-## Acknowledgments
+## Acknowledgments:
 
 - My instructors at Udacity
 - The documentation, Google Maps JS API (https://developers.google.com/maps/documentation/javascript/reference/)
